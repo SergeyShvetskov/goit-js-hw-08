@@ -25,13 +25,11 @@ function onFormSubmit (event) {
 }
 
 function onTextareaInput(event) {
-    // message = event.target.value;
     objectForm.message = event.target.value;
     formObject();
 }
 
 function onInputInput(event) {
-    //  email = event.target.value;
     objectForm.email = event.target.value;
    formObject();
 }
