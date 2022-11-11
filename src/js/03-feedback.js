@@ -26,6 +26,8 @@ function onFormSubmit (event) {
     console.log(objectForm);
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
+    message = "";
+    email = "";
 }
 
 function onTextareaInput(event) {
